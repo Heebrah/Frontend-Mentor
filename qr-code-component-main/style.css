@@ -1,0 +1,45 @@
+body{
+ background-color:  hsl(212, 45%, 89%);
+   font-family: "Outfit";
+}
+
+#layout{
+  display: flex;
+  justify-self: center;
+ flex-direction: column;
+ background-color: white;
+ padding: 15px;
+ border-radius: 6px;
+ margin-top: 30px;
+}
+
+#text-div{
+  width: 230px;
+  display: flex;
+  flex-direction: column;
+  justify-self: center;
+  align-self: center;
+  line-height: 1.5; 
+  text-align: justify;
+  word-wrap: normal;
+}
+
+#Qr-scan{
+  color: rgb(160, 160, 160);
+  text-align: center;
+  font-size: 14px;
+}
+
+img{
+  width: 230px
+}
+
+@media screen and (max-width: 375px){
+img{
+  width: 50px;
+}
+
+#text-div{
+  width: 80%;
+}
+}
